@@ -1,0 +1,52 @@
+
+Struktur Code
+PythonVector
+| vector.yaml
+|_ data
+|_ output
+
+Study Area.py (Perlu Evaluasi)
+
+copy to .yaml
+
+name: package
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - spyder
+  - owslib
+  - gdal
+  - geopandas
+  - rasterio
+  - rasterstats
+  - affine
+  - osmnx
+  - shapely
+  - pandas
+  - fiona
+  - folium
+  - contextily
+  - os
+
+Tutorial Conda Environment 
+cd ~/Documents/
+mkdir PythonRaster #or give the directory a name to your liking
+cd ./PythonRaster
+mkdir data
+mkdir output
+
+touch name.yaml
+mamba env create --file name.yaml
+
+// initial configuration (only take one time)
+conda config --add channels conda-forge
+conda install mamba
+
+conda activate folder
+spyder
+
+// to open spyder more than one kernel
+spyder --new install
+
+
